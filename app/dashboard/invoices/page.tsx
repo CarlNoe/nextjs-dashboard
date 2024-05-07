@@ -7,10 +7,6 @@ import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 
 export default async function Page() {
-  const handleSearch = (e: string) => {
-    console.log(e);
-  };
-
   return (
     <div className="w-full">
       <div className="flex w-full items-center justify-between">
